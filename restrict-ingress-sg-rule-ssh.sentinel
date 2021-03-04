@@ -18,7 +18,7 @@ import "tfplan-functions" as plan
 import "types"
 
 # Variables and print() can be edited to tailor this policy as needed
-forbidden_cidrs = ["0.0.0.0/0"]
+forbidden_cidrs = ["192.168.1.0/0"]
 forbidden_port = 22
 forbidden_to_port = 22
 forbidden_from_port = 22
